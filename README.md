@@ -94,10 +94,38 @@ docker run -p 7860:7860 langflowai/langflow:latest
 > How to grill a chicken?
 > How to clean up the microwave?
 
-### Activity 7:
-### Activity 8:
-### Activity 9:
+### Activity 7: Build Your First Agent
+- Follow the guided document and create your promptly agent
+```
+https://docs.trypromptly.com/getting-started/first-app 
+```
+
+### Activity 8: Realtime Avatars with Retrieval Augmented Generation
+- Follow the guided document and real time avatar with RAG 
+```
+https://docs.trypromptly.com/guides/realtime-avatar-with-rag
+```
+
+### Activity 9: Create a Simple Chatbot
+- Go to command prompt, run below commands to start flowise
+```
+docker run -d --name flowise -p 3000:3000 twming/flowise
+```
+- Setup your agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_0.png" width="600">
+
+
+
 ### Activity 10:
+
+- Setup your agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_1.png" width="600">
+
+- Upload your pdf documents
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_2.png" width="600">
+
+- Test your agent
+
 ### Activity 11:
 ### Activity 12:
 ### Activity 13:
