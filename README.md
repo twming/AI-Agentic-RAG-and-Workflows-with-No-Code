@@ -151,7 +151,7 @@ https://docs.langflow.org/tutorials-travel-planning-agent
 
 ### Activity 12: Create a RAG with NotebookLM 
 - Create your RAG using NotebookLM
-<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="300">
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
 
 
 
