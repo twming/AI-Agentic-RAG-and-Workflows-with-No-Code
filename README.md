@@ -43,9 +43,23 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 > Is your agent response to you?
 > Ask him some questions? Check if he has memory/history?
 
-### Activity 4:
+### Activity 4: Create a Memory Chatbot
+- Go to command prompt, run below commands
+```
+docker run -p 7860:7860 langflowai/langflow:latest
+```
+- Setup the LangFlow Agent as below
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_1.png" width="600">
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_2.png" width="600">
 
-### Activity 5:
+- Setup your OpenAI API Key
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_3.png" width="600">
+> [!TIP]
+> Memory Chatbot
+> https://docs.langflow.org/memory-chatbot
+
+### Activity 5: Create a Document Q&A
+
 ### Activity 6:
 ### Activity 7:
 ### Activity 8:
