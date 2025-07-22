@@ -108,7 +108,9 @@ https://docs.trypromptly.com/guides/realtime-avatar-with-rag
 
 ### Activity 9: Create a Simple Chatbot
 
-
+```
+docker run -d --name flowise -p 3000:3000 twming/flowise
+```
 ### Activity 10:
 ### Activity 11:
 ### Activity 12:
