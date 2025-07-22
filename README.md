@@ -130,10 +130,27 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 - Test your agent
 
 
-### Activity 10: Create a Chatbot that Retrieve Data from Database 
-### Activity 11:
-### Activity 12:
-### Activity 13:
-### Activity 14:
-### Activity 15:
-### Activity 16:
+### Activity 10: Sequential tasks agent
+- Follow the guide below, setup 3 agents: Research agent, Finance agent and Analysis & Editor agent.
+- They work sequentially to help you analysis the financial topic. 
+```
+https://docs.langflow.org/tutorials-sequential-agent 
+```
+> [!TIP]
+> You may setup and get the tavily key from here, https://www.tavily.com/
+
+
+### Activity 11: Travel planning agent
+- Follow the guide below, setup 3 agents: City Selection agent, Local Expert agent and Travel Concierge agent.
+- They work sequentially to help you plan a trip.
+```
+https://docs.langflow.org/tutorials-travel-planning-agent 
+```
+> [!TIP]
+> You may setup and get the Google Serp API key from here, https://serpapi.com/users/sign_in
+
+### Activity 12: Create a RAG with NotebookLM 
+- Create your RAG using NotebookLM
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
+
+
