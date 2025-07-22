@@ -107,11 +107,25 @@ https://docs.trypromptly.com/guides/realtime-avatar-with-rag
 ```
 
 ### Activity 9: Create a Simple Chatbot
-
+- Go to command prompt, run below commands to start flowise
 ```
 docker run -d --name flowise -p 3000:3000 twming/flowise
 ```
+- Setup your agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_0.png" width="600">
+
+
+
 ### Activity 10:
+
+- Setup your agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_1.png" width="600">
+
+- Upload your pdf documents
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_2.png" width="600">
+
+- Test your agent
+
 ### Activity 11:
 ### Activity 12:
 ### Activity 13:
