@@ -154,8 +154,3 @@ https://docs.langflow.org/tutorials-travel-planning-agent
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
 
 
-
-### Activity 13:
-### Activity 14:
-### Activity 15:
-### Activity 16:
