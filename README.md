@@ -66,6 +66,11 @@ docker run -p 7860:7860 langflowai/langflow:latest
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_4.png" width="600">
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_5.png" width="600">
 
+> [!TIP]
+> What is the highest temperature during grilling?
+> How to grill a chicken?
+> How to clean up the microwave?
+
 ### Activity 6:
 ### Activity 7:
 ### Activity 8:
