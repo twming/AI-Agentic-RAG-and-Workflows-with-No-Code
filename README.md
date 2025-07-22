@@ -32,9 +32,9 @@ docker volume create n8n_data
 docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 - Setup the n8n Agent as below
-<img src="https://github.com/twming/AI-Agentic-RAG-Workflows-with-No-Code/blob/main/img/n8n_1.png" width="600">
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/n8n_1.png" width="600">
 - Setup your OpenAI API Key in the OpenAI Model
-<img src="https://github.com/twming/AI-Agentic-RAG-Workflows-with-No-Code/blob/main/img/n8n_2.png" width="600">
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/n8n_2.png" width="600">
 - Test your agent.
 
 ### Activity 4:
