@@ -106,19 +106,18 @@ https://docs.trypromptly.com/getting-started/first-app
 https://docs.trypromptly.com/guides/realtime-avatar-with-rag
 ```
 
-### Activity 9: Create a Simple Chatbot
+### Activity 9: Create a Simple Chatbot that Retrieve Data from Database
+
 - Go to command prompt, run below commands to start flowise
 ```
 docker run -d --name flowise -p 3000:3000 twming/flowise
 ```
-- Setup your agent
+- Setup your agent with OpenAI key
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_0.png" width="600">
 
+- Test your agent: Give 5 animals
 
-
-### Activity 10:
-
-- Setup your agent
+- Setup your agent with RAG 
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_1.png" width="900">
 
 
@@ -130,6 +129,8 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 
 - Test your agent
 
+
+### Activity 10: Create a Chatbot that Retrieve Data from Database 
 ### Activity 11:
 ### Activity 12:
 ### Activity 13:
