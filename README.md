@@ -71,7 +71,29 @@ docker run -p 7860:7860 langflowai/langflow:latest
 > How to grill a chicken?
 > How to clean up the microwave?
 
-### Activity 6:
+### Activity 6: Create a Chatbot with AgentX
+- Setup AgentX account and login
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/agenx_0.png" width="600">
+
+- Create an Agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/agenx_1.png" width="600">
+
+- Choose OpenAI model and setup the OpenAI API Key
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/agenx_2.png" width="600">
+
+- Website Embedding, copy the code to embed
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/agenx_3.png" width="600">
+
+- Use the "mock_index.html", paste the embedded code in the body
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/agenx_4.png" width="600">
+
+- Test the agent by loading the "mock_index.html"
+
+> [!TIP]
+> What is the highest temperature during grilling?
+> How to grill a chicken?
+> How to clean up the microwave?
+
 ### Activity 7:
 ### Activity 8:
 ### Activity 9:
