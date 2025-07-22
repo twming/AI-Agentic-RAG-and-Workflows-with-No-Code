@@ -121,7 +121,11 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 - Setup your agent
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_1.png" width="600">
 
+
 - Upload your pdf documents
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_3.png" width="600">
+
+- Upset Vector Database
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_2.png" width="600">
 
 - Test your agent
