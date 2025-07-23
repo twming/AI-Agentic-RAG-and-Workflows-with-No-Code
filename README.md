@@ -136,6 +136,16 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 ```
 https://docs.langflow.org/tutorials-sequential-agent 
 ```
+
+- Research agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_6.png" width="600">
+
+- Finance agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_7.png" width="600">
+
+- Analysis & Editor agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_8.png" width="600">
+
 > [!TIP]
 > You may setup and get the tavily key from here, https://www.tavily.com/
 
