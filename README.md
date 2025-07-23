@@ -153,4 +153,15 @@ https://docs.langflow.org/tutorials-travel-planning-agent
 - Create your RAG using NotebookLM
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
 
+### Activity 13: Create a RAG Chatbot with Dify
+- Goto Dify, sign up and login
+- Choose "Create from Template"
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_1.png" width="600">
+
+- Setup knowledge retrieval node
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_2.png" width="600">
+
+- Publish and test the chatbot
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_3.png" width="600">
+
 
