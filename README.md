@@ -154,7 +154,11 @@ https://docs.langflow.org/tutorials-travel-planning-agent
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
 
 ### Activity 13: Create a RAG Chatbot with Dify
-- Goto Dify, sign up and login
+- Go to Dify, sign up and login
+```
+https://cloud.dify.ai/apps
+```
+
 - Choose "Create from Template"
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_1.png" width="600">
 
