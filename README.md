@@ -133,9 +133,11 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 ### Activity 10: Sequential tasks agent
 - Follow the guide below, setup 3 agents: Research agent, Finance agent and Analysis & Editor agent.
 - They work sequentially to help you analysis the financial topic. 
+
 ```
 https://docs.langflow.org/tutorials-sequential-agent 
 ```
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_6_0.png" width="600">
 
 - Research agent
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_6.png" width="600">
