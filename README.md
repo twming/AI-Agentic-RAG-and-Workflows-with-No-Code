@@ -136,6 +136,16 @@ docker run -d --name flowise -p 3000:3000 twming/flowise
 ```
 https://docs.langflow.org/tutorials-sequential-agent 
 ```
+
+- Research agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_6.png" width="600">
+
+- Finance agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_7.png" width="600">
+
+- Analysis & Editor agent
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_8.png" width="600">
+
 > [!TIP]
 > You may setup and get the tavily key from here, https://www.tavily.com/
 
@@ -152,5 +162,20 @@ https://docs.langflow.org/tutorials-travel-planning-agent
 ### Activity 12: Create a RAG with NotebookLM 
 - Create your RAG using NotebookLM
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/notebook_lm.png" width="600">
+
+### Activity 13: Create a RAG Chatbot with Dify
+- Go to Dify, sign up and login
+```
+https://cloud.dify.ai/apps
+```
+
+- Choose "Create from Template"
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_1.png" width="600">
+
+- Setup knowledge retrieval node
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_2.png" width="600">
+
+- Publish and test the chatbot
+<img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/dify_3.png" width="600">
 
 
