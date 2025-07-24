@@ -39,66 +39,31 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/n8n_2.png" width="600">
 
 - Setup Gmail with OAuth2
-Step 1: Create a Google Cloud OAuth2 App
-- Go to Google Cloud Console
+  - Step 1: Create a Google Cloud OAuth2 App
+    - Go to Google Cloud Console
+    - Create a new project (or use an existing one).
+    - Navigate to: APIs & Services > OAuth consent screen
+    - Choose "External", fill in required details, and publish.
+    - Go to: APIs & Services > Credentials
+    - Click Create Credentials > OAuth 2.0 Client ID
+    - Application type: Web application
+    - Set the Authorized redirect URI to: http://localhost:5678/rest/oauth2-credential/callback
+    - Replace <your-n8n-domain> with your actual n8n instance URL.
+    - Save your Client ID and Client Secret
 
-Create a new project (or use an existing one).
+  - Step 2: Configure OAuth2 Credentials in n8n
+    - Open your n8n instance
+    - Go to Credentials > New Credential
+    - Choose Gmail OAuth2 API
+    - Fill in: Client ID & Client Secret
 
-Navigate to:
-
-APIs & Services > OAuth consent screen
-
-Choose "External", fill in required details, and publish.
-
-Go to:
-
-APIs & Services > Credentials
-
-Click Create Credentials > OAuth 2.0 Client ID
-
-Application type: Web application
-
-Set the Authorized redirect URI to:
-
-bash
-Copy
-Edit
-https://<your-n8n-domain>/rest/oauth2-credential/callback
-Replace <your-n8n-domain> with your actual n8n instance URL.
-
-Save your Client ID and Client Secret
-
-🔧 Step 2: Configure OAuth2 Credentials in n8n
-Open your n8n instance
-
-Go to Credentials > New Credential
-
-Choose Gmail OAuth2 API
-
-Fill in:
-
-Client ID & Client Secret
-
-Scope: https://www.googleapis.com/auth/gmail.send
-
-Click Connect OAuth2 Account
-
-Complete the OAuth login flow with your Gmail account.
-
-✅ Step 3: Use the Gmail Node in a Workflow
-Add a Gmail node
-
-Choose the credential created above
-
-Select Send Email
-
-Fill in:
-
-To: recipient email
-
-Subject
-
-Message
+  - Step 3: Use the Gmail Node in a Workflow
+    - Add a Gmail node
+    - Choose the credential created above
+    - Select Send Email
+    - To : {{ $fromAI("emailRecipient") }}
+    - Subject: {{ $fromAI("subject") }}
+    - Message: {{ $fromAI('Message', 'emailBody', 'string') }}
 
 - Test your agent.
 > [!TIP]
