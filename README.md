@@ -98,21 +98,9 @@ docker run -p 7860:7860 langflowai/langflow:latest
 > How to grill a chicken?
 > How to clean up the microwave?
 
-### Activity 5.1: Text Sentiment Analysis
-```
-Positive Sentiment:
-"I love this movie! It's fantastic."
-"The new update is amazing; it's so much faster."
-"This restaurant is excellent, the food was delicious and the service was exceptional." 
-Negative Sentiment:
-"This product broke after only a week, it's a complete waste of money." 
-"The customer service was unhelpful and rude." 
-"I'm so disappointed with the new design; it's a huge step backwards." 
-Neutral Sentiment:
-"The movie was okay, nothing special."
-"The weather today is partly cloudy."
-"This restaurant serves a variety of dishes." 
-```
+### Activity 5.1: Image Sentiment Analysis
+- Get some images with positive and negative sentiment from the web.
+- Attached to sentiment analysis
 
 ### Activity 6: Create a Chatbot with AgentX
 - Setup AgentX account and login
