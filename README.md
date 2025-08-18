@@ -29,7 +29,7 @@ Create a comprehensive report of the Coca-Cola company
 - Go to command prompt, run below commands
 ```
 docker volume create n8n_data
-docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+docker run --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 
 - Setup the n8n Agent as below
@@ -73,7 +73,7 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 ### Activity 4: Create a Memory Chatbot
 - Go to command prompt, run below commands
 ```
-docker run -p 7860:7860 langflowai/langflow:latest
+docker run --name langflow -p 7860:7860 langflowai/langflow:latest
 ```
 - Setup the LangFlow Agent as below
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/langflow_1.png" width="600">
@@ -141,7 +141,7 @@ https://docs.trypromptly.com/guides/realtime-avatar-with-rag
 
 - Go to command prompt, run below commands to start flowise
 ```
-docker run -d --name flowise -p 3000:3000 twming/flowise
+docker run --name flowise -p 3000:3000 twming/flowise
 ```
 - Setup your agent with OpenAI key
 <img src="https://github.com/twming/AI-Agentic-RAG-and-Workflows-with-No-Code/blob/main/img/flowise_0.png" width="600">
