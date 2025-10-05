@@ -56,8 +56,12 @@ docker run --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8n
     - Go to Credentials > New Credential
     - Choose Gmail OAuth2 API
     - Fill in: Client ID & Client Secret
+      
+  - Step 3: Enable Gmail API
+    - Search Gmail API
+    - Click Enable button.  
 
-  - Step 3: Use the Gmail Node in a Workflow
+  - Step 4: Use the Gmail Node in a Workflow
     - Add a Gmail node
     - Choose the credential created above
     - Select Send Email
